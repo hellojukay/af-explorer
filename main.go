@@ -24,7 +24,7 @@ var (
 		".jpe":  "image/jpeg",
 		".jpeg": "image/jpeg",
 		".png":  "image/png",
-		".js":   "text/javascript; charset=UTF-8",
+		".js":   "text/javascript; charset=utf-8",
 		".mp3":  "audio/mp3",
 		".mp4":  "video/mpeg4",
 		".css":  "text/css",
