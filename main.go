@@ -33,6 +33,7 @@ var (
 
 func main() {
 	flag.IntVar(&port, "port", port, "http port")
+	flag.StringVar(&prefix, "prefix", prefix, "artifactory server prefix url")
 	flag.Parse()
 
 	mux := http.NewServeMux()
