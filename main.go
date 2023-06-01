@@ -69,6 +69,7 @@ func ModifyResponse(w *http.Response) error {
 	}
 	w.Header.Del(`Strict-Transport-Security`)
 	w.Header.Del(`Content-Security-Policy`)
+	w.Header.Del(`Content-Disposition`)
 	for k := range w.Header {
 		if strings.HasPrefix(k, "X-") {
 			w.Header.Del(k)
